@@ -1,0 +1,25 @@
+{
+    "name": "igorwanbarros/templates-laravel",
+    "description": "",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9",
+        "laravel/lumen-framework": "5.1.*",
+        "igorwanbarros/base-laravel": "dev-master",
+	    "igorwanbarros/autenticacao-laravel": "dev-master",
+	    "igorwanbarros/php2html-laravel": "dev-master"
+
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Igor Wanderley",
+            "email": "igorwanbarros@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Igorwanbarros\\TemplatesLaravel\\": "src/"
+        }
+    }
+}
