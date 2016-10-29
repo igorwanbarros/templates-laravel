@@ -1,0 +1,9 @@
+<script src="{{url('templates/admin-lte/js/jQuery-2.1.4.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/js/jquery-ui.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/js/bootstrap.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/js/app.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/sweetalert/sweetalert.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/toastr/toastr.min.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/datepicker/bootstrap-datepicker.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/jquery.mask/jquery.mask.js')}}"></script>
