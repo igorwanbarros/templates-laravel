@@ -1,5 +1,5 @@
 <li>
-    <a href="{{url('/')}}">
+    <a href="{{url('/home')}}">
         <i class="fa fa-home fa-fw"></i> <span>Início</span>
     </a>
 </li>

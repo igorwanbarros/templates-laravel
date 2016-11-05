@@ -2,6 +2,8 @@
 
 namespace Igorwanbarros\TemplatesLaravel\Providers;
 
+use Igorwanbarros\Php2Html\Menu\ItemMenu;
+use Igorwanbarros\TemplatesLaravel\Widgets\MenuWidget;
 use Illuminate\Support\ServiceProvider;
 
 class TemplatesLaravelServiceProviders extends ServiceProvider
