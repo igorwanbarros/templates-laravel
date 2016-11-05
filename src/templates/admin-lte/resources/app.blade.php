@@ -8,6 +8,10 @@
     @include('templates.admin-lte.styles')
 @stop
 
+@section('body-class')
+    hold-transition skin-yellow sidebar-mini sidebar-collapse
+@stop
+
 @section('navbar')
     @include('templates.admin-lte.navbar')
 @stop

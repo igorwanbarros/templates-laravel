@@ -7,7 +7,7 @@
 
     @yield('styles')
 </head>
-<body class="hold-transition skin-yellow sidebar-mini sidebar-collapse">
+<body class="@yield('body-class')">
 
 <div class="wrapper">
     <header class="main-header">
