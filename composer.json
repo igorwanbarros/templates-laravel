@@ -21,6 +21,5 @@
         "psr-4": {
             "Igorwanbarros\\TemplatesLaravel\\": "src/"
         }
-    },
-    "minimum-stability": "stable"
+    }
 }
