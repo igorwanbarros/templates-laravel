@@ -21,12 +21,12 @@
                 <!-- logo for regular state and mobile devices -->
                 <span class="logo-lg"><b>{!! env('APP_NAME', 'Admin-LTE') !!}</b></span>
             </a>
-
+            
             <nav class="navbar navbar-static-top" role="navigation">
                 <a href="#" class="sidebar-toggle" data-toggle="offcanvas" role="button">
                     <span class="sr-only">Toggle navigation</span>
                 </a>
-
+                
                 <div class="navbar-custom-menu">
                     <ul class="nav navbar-nav">
                         @yield('navbar')
@@ -35,25 +35,25 @@
                 <!--fim do custom-nav-bar-->
             </nav>
             <!--fim do nav-->
-
+        
         </header>
         <!--fim do header-->
-
+        
         <aside class="main-sidebar">
             <section class="sidebar">
                 <div class="user-panel"></div>
                 <!--fim do user-painel-->
-
+                
                 <ul class="sidebar-menu">
                     @yield('sidebar')
                 </ul>
                 <!--fim da sidebar-menu - lista do menu inicial-->
-
+            
             </section>
             <!--fim do menu principal-->
         </aside>
         <!--fim do main-sidebar-->
-
+        
         <div class="content-wrapper">
             <section class="content">
                 @yield('content')
@@ -61,15 +61,15 @@
             <!--fim do content-->
         </div>
         <!--fim do content-wrapper-->
-
+        
         <footer class="main-footer">
             @yield('footer')
         </footer>
         <!--fim do main-footer-->
-
+    
     </div>
     <!-- fim do wrapper-->
-
+    
     @yield('modal')
 @stop
 
