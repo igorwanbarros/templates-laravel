@@ -2,8 +2,7 @@
 
 namespace Igorwanbarros\TemplatesLaravel\Providers;
 
-use Igorwanbarros\Php2Html\Menu\ItemMenu;
-use Igorwanbarros\TemplatesLaravel\Widgets\MenuWidget;
+use Igorwanbarros\Php2Html\ViewAbstract;
 use Illuminate\Support\ServiceProvider;
 
 class TemplatesLaravelServiceProviders extends ServiceProvider
@@ -14,7 +13,7 @@ class TemplatesLaravelServiceProviders extends ServiceProvider
      */
     public function register()
     {
-
+        $this->app->configure('admin-lte-config');
     }
 
 
@@ -26,6 +25,10 @@ class TemplatesLaravelServiceProviders extends ServiceProvider
         $this->publishTemplates();
 
         //$this->loadViewsFrom(__DIR__ . '/views', 'templates-laravel');
+
+        if (($templateUse = env('APP_TEMPLATE_USE'))) {
+            ViewAbstract::setPersonalizations(config($templateUse . '-config', []));
+        }
     }
 
 
@@ -42,5 +45,9 @@ class TemplatesLaravelServiceProviders extends ServiceProvider
                 ]);
             }
         }
+
+        $this->publishes([
+            __DIR__ . '/../configs' => base_path('config'),
+        ], 'config-template');
     }
 }
