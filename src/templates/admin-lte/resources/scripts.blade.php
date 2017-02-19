@@ -7,3 +7,4 @@
 <script src="{{url('templates/admin-lte/plugins/datepicker/bootstrap-datepicker.js')}}"></script>
 <script src="{{url('templates/admin-lte/plugins/datepicker/locales/bootstrap-datepicker.pt-BR.js')}}"></script>
 <script src="{{url('templates/admin-lte/plugins/jquery.mask/jquery.mask.js')}}"></script>
+<script src="{{url('templates/admin-lte/plugins/iCheck/icheck.min.js')}}"></script>

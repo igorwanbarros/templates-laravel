@@ -6,6 +6,7 @@
 <link rel="stylesheet" type="text/css" href="{{url('templates/admin-lte/plugins/sweetalert/sweetalert.css')}}">
 <link rel="stylesheet" type="text/css" href="{{url('templates/admin-lte/plugins/toastr/toastr.css')}}">
 <link rel="stylesheet" type="text/css" href="{{url('templates/admin-lte/plugins/datepicker/datepicker3.css')}}">
+<link rel="stylesheet" type="text/css" href="{{url('templates/admin-lte/plugins/iCheck/square/_all.css')}}">
 
 <style>
     .datepicker {
